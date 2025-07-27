@@ -83,6 +83,7 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    white-space: nowrap;
 }
 
 .nav {
@@ -242,7 +243,7 @@ body {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center 25%;
     border: 4px solid var(--border-color);
     box-shadow: 0 20px 40px var(--shadow-light);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -610,6 +611,10 @@ section {
     .contact-content {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    
+    .logo h1 {
+        font-size: 1.2rem;
     }
     
     .nav {
